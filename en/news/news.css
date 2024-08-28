@@ -1,0 +1,104 @@
+html, body {
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden;
+    background-color: #333869;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 67px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #4182d6;
+    color: white;
+  }
+
+  .topnav a.lang {
+    background-color: #333;
+    color: white;
+    float: right;
+    padding: 14px 7px;
+    font-size: 20px;
+  }  
+  
+  .topnav a.lang-active {
+    background-color: #535353;
+    color: white;
+    float: right;
+    padding: 14px 7px;
+    font-size: 20px;
+  }
+
+  .news-list {
+    overflow-y: scroll;
+    height: 80%;
+    padding: 0px 200px 200px 200px;
+  }
+
+  .news-list h1 {
+    color:#ececec
+  }
+
+  .news-element {
+    border-style: solid #686868;
+    border-width: 5px;
+    border-radius: 15px;
+    background-color:#ececec;
+    padding: 20px 0px 20px 20px;
+    font-size:20px;
+  }
+
+  .news-element + .news-element {
+    margin-top: 50px;
+  }
+
+  h1 {
+    text-align:center;
+  }
+
+  .news-element p {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .news-element p.sub {
+    text-align: center;
+    font-size: 17px;
+    color: #2b2b2b;
+  }
+
+  .news-element img {
+    margin-left: 40px;
+    margin-right: 40px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  .news-header {
+    display: flex;
+    justify-content: space-between;
+    font-size:20px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="status.css">
+<div class="topnav">
+    <div class="menu"></div>
+    <a href="/home/gptdoktor/flopia/ua/main.html">Головна</a>
+    <a href="/home/gptdoktor/flopia/ua/news/news.html">Новини</a>
+    <a href="/home/gptdoktor/flopia/ua/modpack/modpack.html">Модпак</a>
+    <a class="active"  href="/home/gptdoktor/flopia/ua/status/status.html">Статус</a>
+    <a href="/home/gptdoktor/flopia/ua/rules/rules.html">Правила</a>
+    <a href="/home/gptdoktor/flopia/ua/map/map.html">Мапа</a>
+    <a href="/home/gptdoktor/flopia/ua/FAQ/FAQ.html">FAQ</a>
+    <a class="lang" href="/home/gptdoktor/flopia/en/status/status.html">EN</a>
+    <a class="lang-active" href="/home/gptdoktor/flopia/ua/status/status.html">UA</a>
+    </div>
+</div>
+
+<body>
+    <div class="page">
+    <div class="server-status">
+        <h1 style="text-align:center;">Статус Серверу</h1>
+        <p>IP-адреса: <span id="ip" style="float:right;"></span></p>
+        <p>Статус: <span id="status" style="float:right; color:rgb(0, 168, 0);"></span></p>
+        <p>Гравці: <span id="players" style="float:right;"></span></p>
+    </div>
+    <div class="server-stats">
+        <h1 style="text-align:center;">Показники Серверу</h1>
+        <p style="text-align:center;">Оперативна Пам'ять</p>
+        <div class="container" style="margin:0 auto;" id="ram"> 
+        </div>          
+        <p style="text-align:center;">Процесор</p>
+        <div class="container" style="margin:0 auto;" id="cpu"> 
+        </div>
+        <p style="text-align:center;">Диск</p>
+        <div class="container" style="margin:0 auto;" id="disk"> 
+        </div>
+    </div>
+    </div>
+</body>
+<script src="status.js"></script>
+</html>

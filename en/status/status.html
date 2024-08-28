@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="status.css">
+<div class="topnav">
+    <div class="menu"></div>
+    <a href="/home/gptdoktor/flopia/en/main.html">Home</a>
+    <a href="/home/gptdoktor/flopia/en/news/news.html">News</a>
+    <a href="/home/gptdoktor/flopia/en/modpack/modpack.html">Modpack</a>
+    <a class="active"  href="/home/gptdoktor/flopia/en/status/status.html">Status</a>
+    <a href="/home/gptdoktor/flopia/en/rules/rules.html">Rules</a>
+    <a href="/home/gptdoktor/flopia/en/map/map.html">Map</a>
+    <a href="/home/gptdoktor/flopia/en/FAQ/FAQ.html">FAQ</a>
+    <a class="lang-active" href="/home/gptdoktor/flopia/en/status/status.html">EN</a>
+    <a class="lang" href="/home/gptdoktor/flopia/ua/status/status.html">UA</a>
+    </div>
+</div>
+
+<body>
+    <div class="page">
+    <div class="server-status">
+        <h1 style="text-align:center;">Server Status</h1>
+        <p>Ip-address: <span id="ip" style="float:right;"></span></p>
+        <p>Status: <span id="status" style="float:right; color:rgb(0, 168, 0);"></span></p>
+        <p>Players: <span id="players" style="float:right;"></span></p>
+    </div>
+    <div class="server-stats">
+        <h1 style="text-align:center;">Server Stats</h1>
+        <p style="text-align:center;">RAM </p>
+        <div class="container" style="margin:0 auto;" id="ram"> 
+        </div>          
+        <p style="text-align:center;">CPU </p>
+        <div class="container" style="margin:0 auto;" id="cpu"> 
+        </div>
+        <p style="text-align:center;">Disk </p>
+        <div class="container" style="margin:0 auto;" id="disk"> 
+        </div>
+    </div>
+    </div>
+</body>
+<script src="status.js"></script>
+</html>
