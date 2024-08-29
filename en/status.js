@@ -5,7 +5,7 @@ function initServerData(serverIp,serverPort){
     .then(response => response.json())
     .then(data => handleServerStatus(data));
 
-    fetch('http://34.89.139.199:5000')
+    fetch('http://mcflopia.duckdns.org:5000')
     .then(response => response.json())
     .then(stats => handleServerStats(stats));
 

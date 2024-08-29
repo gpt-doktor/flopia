@@ -5,7 +5,7 @@ function initServerData(serverIp,serverPort){
     .then(response => response.json())
     .then(data => handleServerStatus(data));
 
-    fetch('http://127.0.0.1:5000/api')
+    fetch('http://mcflopia.duckdns.org:5000')
     .then(response => response.json())
     .then(stats => handleServerStats(stats));
 
@@ -57,6 +57,6 @@ function initServerData(serverIp,serverPort){
     } 
 }
 
-initServerData("34.141.86.71", "25565");
+initServerData("34.89.139.199", "25565");
 var func = initServerData;
-var run = setInterval("func(\"34.141.86.71\",\"25565\")", 1000);
+var run = setInterval("func(\"34.89.139.199\",\"25565\")", 1000);
